@@ -12,11 +12,10 @@ ctf{dd0gf4c3tok3yb0ard4g41n~~~}
 
 图片下面一堆点没见过，丢stegsolve知道是正方形和⚪造出来的没啥用，数了下32位猜测二进制，也不对，变种摩斯密码，也不对，查答案可知，盲文。。。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image001.png)
 
 解出来kmdonowg，把压缩包解出来，得到音频，听了一下，好家伙摩斯密码，甚至开始学习听电报能力，奇怪的知识点get，实在听力有限，记不过来，开倍速都拯救不了我，幸好有神器AU，我直接看。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image003.png)
+!
 
 解出来ctfwpei08732?23dz
 
@@ -130,7 +129,7 @@ Flag{ba8e6c6f35a53933b871480bb9a9545c}
 
 拿到流量包，下意识，是看tcp流，认为最后的usb流无用，翻了一会包发现没啥有用信息，看到tcp丢包，以为是把tcp包顺序重组下，搞完发现还是啥也看不出来，直到第一条hints出来才反过去翻usb包，慢慢搞出来，得到若干png，jfif和json配置，说实话这里气乐了我怀疑出题人在嘲讽我，而且我有证据，如下：
 
-![1](C:\Users\Administrator\Downloads\My Secret\1.png)
+![1](.\1.png)
 
 好家伙，第二张png不对劲，翻查png结构，发现idat数据对不上，尝试改小前缀，没有（弱智行为），重新细看usb那块包，发现，![1](C:\Users\Administrator\Desktop\CTF\Misc\1.PNG)
 
